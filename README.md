@@ -1,4 +1,4 @@
-# trab_della
+# trab_della_autômato
 Trabalho Autômatos
 No âmbito deste projeto,foi desenvolvito um autômato AFNE-e   utilizando  a linguagem de programação  python  autômato   tem como expressão regular (a+b+c)*abc (a+b+c)*;
 
