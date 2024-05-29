@@ -13,6 +13,7 @@ Em outras palavras, este autômato aceita qualquer palavra que tiver  a subpalav
 3- Depois a ferramenta lê cada linha do arquivo test_input.csv que contêm  as sequências e escreve no arquivo test_output.csv da seguinta forma a sequencia lida,se aceita ou e o tempo de execução em cada linha;
 
 Obs:Lembre de utilizar o prombt de comando para funcionamento correto do programa;
+Obs2: Certa sequencia de caracteres não lê determinada "palavra" ou letra;
 
 
 #Exemplo de resultado 
