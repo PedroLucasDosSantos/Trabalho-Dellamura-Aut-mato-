@@ -1,0 +1,29 @@
+{
+  "states": [
+    { "name": "q0" },
+    { "name": "q1" },
+    { "name": "q2" },
+    { "name": "q3" },
+    { "name": "q4" },
+    { "name": "q5" }
+  ],
+  "alphabet": ["a", "b", "c"],
+  "transitions": [
+    { "from": "q0", "read": "a", "to": "q1" },
+    { "from": "q0", "read": "", "to": "q5" },
+    { "from": "q1", "read": "", "to": "q2" },
+    { "from": "q1", "read": "a", "to": "q1" },
+    { "from": "q1", "read": "b", "to": "q1" },
+    { "from": "q2", "read": "", "to": "q3" },
+    { "from": "q2", "read": "c", "to": "q2" },
+    { "from": "q3", "read": "", "to": "q4" },
+    { "from": "q3", "read": "b", "to": "q4" },
+    { "from": "q4", "read": "", "to": "q4" },
+    { "from": "q4", "read": "a", "to": "q4" },
+    { "from": "q4", "read": "b", "to": "q4" },
+    { "from": "q4", "read": "c", "to": "q4" },
+    { "from": "q5", "read": "c", "to": "q2" }
+  ],
+  "startState": "q0",
+  "acceptStates": ["q4"]
+}
